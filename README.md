@@ -44,10 +44,12 @@ This is a known vulnerability but Apple has not patched it yet.
 An attacker may be able to execute arbitrary code with system privileges in applications using the sqlite3 library.
 
 
-## CVE-2018-???? Webkit Denial of Service
+## CVE-2018-4361 Webkit Denial of Service
 A remote attacker may be able to cause a denial of service in MobileSafari through maliciously crafted webcontent resulting in an application crash.
 
 This vulnerability can be patched by improved memory management.
+
+This issue seems to be patched in iOS 12.
 
 ## CVE-2018-???? Kernel Denial of Service
 A local attacker may be able to cause a denial of service through a maliciously crafted application.
