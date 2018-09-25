@@ -5,7 +5,7 @@ He or she can either accept the bribe or get a lead bullet in the head.
 
 This repository contains minor bugs and vulnerabilities that I found in iOS userland.
 
-## CVE 2018-???? iBooks Type Confusion [Writeup](writeups/ibooks.md)
+## CVE 2018-???? iBooks Type Confusion [(Writeup)](writeups/ibooks.md)
 A type confusion vulnerability in iBooks may lead to memory corruption.
 
 An attacker with access to a paired device over usb can exploit this vulnerability to cause a persistant denial of service in the iBooks application.
@@ -17,7 +17,7 @@ The issue can be fixed by improved serialization and sandboxing.
 ## CVE 2018-???? MobileSlideShow Type Confusion 
 A type confusion vulnerability in MobileSlideShow may lead to memory corruption.
 
-## CVE 2018-???? Assetsd Type Confusion [Writeup](writeups/assetsd.md)
+## CVE 2018-???? Assetsd Type Confusion [(Writeup)](writeups/assetsd.md)
 A type confusion vulnerability in assetsd may lead to memory corruption.
 
 The issue can be fixed by improved serialization.
@@ -56,7 +56,7 @@ _Quick Poc:_
 setInterval(function(){window.location.href='accounts://'+'A'.repeat(10000);},0.1);
 ```
 
-## CVE-2018-???? Kernel Denial of Service [Writeup](writeups/kerneldos.md)
+## CVE-2018-???? Kernel Denial of Service [(Writeup)](writeups/kerneldos.md)
 A local attacker may be able to cause a denial of service through a maliciously crafted application.
 
 A logic flaw exists in process allocation.
