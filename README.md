@@ -62,6 +62,7 @@ A local attacker may be able to cause a denial of service through a maliciously 
 A logic flaw exists in process allocation.
 
 This issue can be resolved through improved logic and improved sandboxing.
+
 _Quick Poc:_
 ```Objc
 for(int i = 0; i < 10000; i++) {
