@@ -56,4 +56,9 @@ A logic flaw exists in process allocation.
 
 This issue can be resolved through improved logic and improved sandboxing.
 
+## CVE-2018-???? Apple File Conduit Infoleak
+A local attacker may be able to list directories outside the sandbox.
 
+A path traversal vulnerability exists in the afc service.
+
+This issue can be resolved by improved path handling.
