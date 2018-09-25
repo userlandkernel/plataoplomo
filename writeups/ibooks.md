@@ -32,6 +32,8 @@ Arrays and Dictionaries are references to NSMutableArray and NSMutableDictionary
 
 This made me think of a scenario where the serializer does not check the type correctly thuswhen changing the type fails to read more data and type confusion would of occur.
 
+## Proof of Concept
+
 I noticed that the code for reading the Purchases propertylist did not check this correctly so that when a type was expected a bug would occur.
 
 I changed the path value in the Purchases propertylist  to number 4141414141 and changed the type to integer.
@@ -43,6 +45,8 @@ I checked the crashlogs and saw that indeed type confusion occured but that it i
 In theory it is still possible to use this vulnerability for exploitation but that requires some further studies that I currently not am interested to do because of the scope of this vulnerability.
 
 Perhaps in the future I will demonstrate a memory corruption exploit as well based on this type confusion.
+
+## The Patch
 
 The issue is that apple did not sandbox the Purchases file thus making it controllable by attackers and at the same time does not check the type of the property list values but rather expects one when serializing the propertylist.
 
