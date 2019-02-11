@@ -87,7 +87,7 @@ A local attacker may be able to cause a denial of service through a maliciously 
 This issue can be resolved by denying sandboxed processes to send large mach messages to a port and by denying the growth of the message queue on a machport.
 
 
-## CVE-2019-7289 Shortcuts Path Traversal [(Writeup)](writeups/shortcuts-traversal.md)[(Poc)](exploits/shortcuts-traversal.dat)
+## CVE-2019-7289 Shortcuts Path Traversal [(Writeup)](writeups/shortcuts-traversal.md)[(Poc)](https://www.icloud.com/shortcuts/c3a65b80294f4802b052081dac13851a)
 Available for: Shortcuts 2.1.2 for iOS
 
 A local user may be able to view senstive user information.
@@ -102,7 +102,7 @@ A local attacker may be able to launch hidden system applications.
 
 A logical issue exists in the Apple Pay module allowing a bundle ID to be specified instead of defaulting to Apple pay.
 
-## Shortcuts Type Confusion [(Writeup)](writeups/shortcuts-typeconfusion.md)[(Poc)](exploits/shortcuts-typeconfusion.dat)
+## Shortcuts Type Confusion [(Writeup)](writeups/shortcuts-typeconfusion.md)[(Poc)](https://www.icloud.com/shortcuts/c3a65b80294f4802b052081dac13851a)
 Available for: Shortcuts 2.1.2 for iOS
 
 A local attacker may be able to possibly execute arbitrary code with system privileges.
