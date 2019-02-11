@@ -22,13 +22,6 @@ A type confusion vulnerability in assetsd may lead to memory corruption.
 
 The issue can be fixed by improved serialization.
 
-## Launchd Type Confusion 
-A type confusion vulnerability exists in the initialization of launchdaemons.
-
-A local attacker may be able to execute arbitrary code with system privileges and persistancy.
-
-The issue can be fixed by improved serialization.
-
 ## libsqlite3 Infoleak
 A vulnerability exists in libsqlite3.
 
