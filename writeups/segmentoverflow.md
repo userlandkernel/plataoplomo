@@ -16,4 +16,4 @@ However this all still depends on being able to restore the intialization stage 
 A proof-of-concept for the exploit can be found here in exploits/segmentoverflow.sh  
 It is very simple, but very dangerous on production devices as it might brick the device into an unusable state.  
 Therefore it is recommended to only test it on development device with iboot unlocked.  
-The vulnerability exists in the latest version of XNU as seen here at (https://github.com/UKERN-Developers/darwin-xnu/blob/1527a46c171c66d57c22fa6b233e664d092f81a1/osfmk/kern/stack.c#L119)[Latest XNU]  
+The vulnerability exists in the latest version of XNU as seen here at [Latest XNU](https://github.com/UKERN-Developers/darwin-xnu/blob/1527a46c171c66d57c22fa6b233e664d092f81a1/osfmk/kern/stack.c#L119)  
