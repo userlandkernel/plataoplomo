@@ -21,7 +21,7 @@ Those with culinairy principes will know what I mean by that.
 Path: /System/Library/PrivateFrameworks/MobileDevice.framework/MobileDevice  
 How?  
 
-1. Run the scripts (dump_keys.py, dump_certs.py, dump_pubkeys.py) in the [Exploits](exploits/) folder of this repository on a mac.  
+1. Run the scripts (dump_keys.py, dump_certs.py, dump_pubkeys.py) in the [Exploits](https://github.com/userlandkernel/plataoplomo/tree/master/exploits) folder of this repository on a mac.  
 2. You now will have all the private keys and certificates in your current directory.  
 3. (Optional) If you're familiar with r2 and know how binaries work thus where to look for strings, then good news: The private keys have a symbol that exactly explains what they are used for.  
 4. Profit!
