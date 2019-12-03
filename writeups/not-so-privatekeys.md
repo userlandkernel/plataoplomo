@@ -19,6 +19,8 @@ Those with culinairy principes will know what I mean by that.
 
 ## Fantastic keys and where to find them
 
+If you're not a techie, they are here: [Private Keys and Certificates](https://github.com/userlandkernel/plataoplomo/tree/master/data/not-so-privatekeys) on this repo.
+
 Path: /System/Library/PrivateFrameworks/MobileDevice.framework/MobileDevice  
 How?  
 
