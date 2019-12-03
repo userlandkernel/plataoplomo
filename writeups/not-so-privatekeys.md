@@ -11,7 +11,8 @@ Its up to anyone to take this further and test whether they can be used for pers
 To encourage other reverse engineers to do what is my passion, to document the unknown, I publish this document and the private keys as a manifesto and motivation for fellow reverse engineers.  
 Because of that, chances are big that this repository will be taken down under the enforcement of the DMCA.  
 Personally I think that would be unlawful due to the constraints of the act, but neither do I have the legal means to make that claim when it would happen.  
-Taking down this repository for DMCA violation is an act of weakness and disrespectful to the owl of Athena.
+
+Taking down this repository for DMCA violation would be an act of weakness and at the very least disrespectful to the owl of Athena.
 If that will happen, I will find my freedom elsewhere and perhaps leave GitHub forgood.
 Just remember that a meal never tastes great if you don't add onions.  
 Those with culinairy principes will know what I mean by that.  
